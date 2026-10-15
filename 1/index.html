@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio - Beryl</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo.png" alt="logo" />
+        <a href="/">Beryl</a>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>            
+        <a href="#project">Project</a>
+        <a href="#certificate">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="extra-nav">
+        <a href="#contact"><button>Get In Touch</button></a>
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skill">Skill</a></li>
+          <li><a class="nav-link" href="#project">Project</a></li>
+          <li><a class="nav-link" href="#certificate">Certificates</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <svg viewBox="0 0 1500 500" data-aos="fade-down">
+            <text x="50%" y="50%" text-anchor="middle">ROUX BERYL</text>
+          </svg>
+          <h1 data-aos="zoom-in-up">
+            Siswa Kelas 11 RPL yang sedang <span>Belajar dan Berkembang</span> di Bidang Pemrograman
+          </h1>
+          <button id="show-work-btn" data-aos="zoom-out"><span>Show my Work</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="assets/profile.png" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1> Roux Beryl</h1>
+                <div class="role">
+                  <h2>RPL | SMK Plus Pelita Nusantara</h2>
+                </div>
+              </div>
+              <p>
+                Halo, perkenalkan nama saya Beryl. Saat ini saya duduk di
+                kelas 11 jurusan Rekayasa Perangkat Lunak (RPL) di SMK Plus
+                Pelita Nusantara. Saya tertarik dengan dunia pemrograman dan
+                pengembangan website, sehingga saya terus belajar dan
+                melatih kemampuan saya di bidang ini melalui pelajaran
+                sekolah maupun belajar secara mandiri.
+                <br />
+                <br />
+                Selama menjadi siswa RPL, saya sudah mempelajari dasar-dasar
+                pembuatan website menggunakan HTML, CSS, dan JavaScript,
+                serta mulai mengenal React untuk membangun tampilan yang
+                lebih interaktif. Saya juga belajar konsep dasar database
+                menggunakan MySQL untuk menyimpan dan mengelola data.
+                <br />
+                <br />
+                Melalui portfolio ini, saya ingin menunjukkan progres belajar
+                saya sejauh ini sebagai siswa RPL, sekaligus terus mengasah
+                kemampuan agar semakin baik ke depannya.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skill
+          </h1>
+
+         <div class="skills" data-aos-delay="500"> 
+          <div data-aos="zoom-in-down" class="skill-box"> 
+            <img src="assets/html-5.png" alt="html" />
+           </div> 
+            <div data-aos="zoom-in-down" class="skill-box"> 
+              <img src="assets/css-3.png" alt="css" /> 
+            </div>
+               <div data-aos="zoom-in-down" class="skill-box"> 
+                <img src="assets/react.png" alt="react" />
+               </div> 
+               <div data-aos="zoom-in-down" class="skill-box"> 
+                <img src="assets/mysql.png" alt="mysql" />
+               </div>
+                <div data-aos="zoom-in-down" class="skill-box">
+                <img src="assets/js.png" alt="javascript" />
+              </div>
+              </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Project
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Website Portfolio</h1>
+                <p>
+                  Website portfolio pribadi untuk menampilkan profil, skill,
+                  project, dan informasi tentang diri saya sebagai siswa RPL.
+                </p>
+                <div class="action">
+                  <a class="btn-link" href="#">Github</a>
+                  <a class="btn-link" href="#">Demo</a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Website Sekolah</h1>
+                <p>
+                  Project website sederhana bertema sekolah yang dibuat
+                  untuk melatih kemampuan HTML, CSS, dan JavaScript.
+                </p>
+                <div class="action">
+                  <a class="btn-link" href="#">Github</a>
+                  <a class="btn-link" href="#">Demo</a>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Sistem Informasi Sederhana</h1>
+                <p>
+                  Project sederhana yang menggunakan konsep database untuk
+                  mengelola dan menampilkan data.
+                </p>
+                <div class="action">
+                  <a class="btn-link" href="#">Github</a>
+                  <a class="btn-link" href="#">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificate" class="certificate">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Certificates
+          </h1>
+
+          <div class="certificates">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/ser1.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 1</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/ser2.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 2</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/ser3.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 3</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/ser4.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 4</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/ser5.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 5</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/ser6.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 6</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/ser7.jpeg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 7</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/ser8.jpg" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 8</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/ser9.png" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 9</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/ser10.png" alt="certificate" />
+              <div class="description">
+                <h1>Sertifikat 10</h1>
+                <a class="btn-link" href="#">View Certificate</a>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Contact
+          </h1>
+
+          <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+            <div class="input">
+              <input type="text" placeholder="Name..." />
+              <input type="email" placeholder="Email..." />
+              <input type="number" placeholder="Phone..." />
+              <input type="text" placeholder="Subject..." />
+            </div>
+            <textarea name="message" placeholder="Message..."></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <img src="assets/logo.png" alt="logo" />
+            <a href="">Beryl</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            Portfolio pribadi Beryl, siswa kelas 11 jurusan Rekayasa
+            Perangkat Lunak (RPL) di SMK Plus Pelita Nusantara.
+          </p>
+
+          <!-- Social Media -->
+          <div class="social-media-container">
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" name="youtube" type="logo"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon
+                color="#fff"
+                name="facebook-circle"
+                type="logo"
+              ></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+            </div>
+          </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+            <h1>Skill</h1>
+            <ul>
+              <li>
+                <a href="#">HTML</a>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+              </li>
+              <li>
+                <a href="#">JavaScript</a>
+              </li>
+              <li>
+                <a href="#">React</a>
+              </li>
+              <li>
+                <a href="#">MySQL</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource">
+            <h1>Tools</h1>
+            <ul>
+              <li>
+                <a href="#">Git</a>
+              </li>
+              <li>
+                <a href="#">GitHub</a>
+              </li>
+              <li>
+                <a href="#">VS Code</a>
+              </li>
+              <li>
+                <a href="#">Figma</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#skill">Skill</a>
+              </li>
+              <li>
+                <a href="#project">Project</a>
+              </li>
+              <li>
+                <a href="#certificate">Certificates</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
