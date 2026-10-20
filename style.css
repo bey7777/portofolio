@@ -237,15 +237,19 @@ header .mobile-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 16px; /* Memberikan sedikit padding */
   background-color: #191919;
   border-radius: 16px;
-  width: 75%;
-  height: 75vh;
+  width: 100%; /* Ubah dari 75% ke 100% agar box memenuhi kolomnya */
+  max-width: 400px; /* Batas lebar maksimal box */
+  height: auto; /* Sesuaikan tinggi secara otomatis */
 }
 
 .about .container .content .about-me .profile .image-box img {
-  width: 70%;
+  width: 100%; /* Ubah dari 70% ke 100% agar foto memperbesar memenuhi box */
+  height: 100%;
+  object-fit: cover; /* Agar gambar tidak terdistorsi/gepeng */
+  border-radius: 12px;
 }
 
 .about .container .content .about-me .description {
