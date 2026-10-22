@@ -955,3 +955,18 @@ header .hamburger-menu { padding:6px; line-height:0; }
   footer .container .link-container { grid-template-columns:minmax(0,1fr); }
   footer .container .link-container .navigation { grid-column:auto; }
 }
+
+
+/* Clickable social media icons */
+footer .container .profile .social-media-container a.social-media {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  flex-shrink: 0;
+}
+footer .container .profile .social-media-container a.social-media box-icon {
+  display: block;
+  pointer-events: none;
+}
